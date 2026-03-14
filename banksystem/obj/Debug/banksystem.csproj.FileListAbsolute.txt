@@ -1,0 +1,15 @@
+F:\really study\面向对象\banksystem\banksystem\banksystem\bin\Debug\banksystem.exe.config
+F:\really study\面向对象\banksystem\banksystem\banksystem\bin\Debug\banksystem.exe
+F:\really study\面向对象\banksystem\banksystem\banksystem\bin\Debug\banksystem.pdb
+F:\really study\面向对象\banksystem\banksystem\banksystem\obj\Debug\banksystem.csproj.AssemblyReference.cache
+F:\really study\面向对象\banksystem\banksystem\banksystem\obj\Debug\banksystem.csproj.CoreCompileInputs.cache
+F:\really study\面向对象\banksystem\banksystem\banksystem\obj\Debug\banksystem.exe
+F:\really study\面向对象\banksystem\banksystem\banksystem\obj\Debug\banksystem.pdb
+F:\really study\面向对象\banksystem\banksystem\banksystem\obj\Debug\banksystem.exe.config
+F:\really study\面向对象\banksystem\banksystem\banksystem\bin\Debug\DAL.dll
+F:\really study\面向对象\banksystem\banksystem\banksystem\bin\Debug\Model.dll
+F:\really study\面向对象\banksystem\banksystem\banksystem\bin\Debug\IDAL.dll
+F:\really study\面向对象\banksystem\banksystem\banksystem\bin\Debug\DAL.pdb
+F:\really study\面向对象\banksystem\banksystem\banksystem\bin\Debug\Model.pdb
+F:\really study\面向对象\banksystem\banksystem\banksystem\bin\Debug\IDAL.pdb
+F:\really study\面向对象\banksystem\banksystem\banksystem\obj\Debug\banksystem.csproj.Up2Date

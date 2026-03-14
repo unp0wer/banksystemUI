@@ -1,0 +1,6 @@
+F:\really study\面向对象\banksystem\banksystem\Model\bin\Debug\Model.dll
+F:\really study\面向对象\banksystem\banksystem\Model\bin\Debug\Model.pdb
+F:\really study\面向对象\banksystem\banksystem\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+F:\really study\面向对象\banksystem\banksystem\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+F:\really study\面向对象\banksystem\banksystem\Model\obj\Debug\Model.dll
+F:\really study\面向对象\banksystem\banksystem\Model\obj\Debug\Model.pdb
