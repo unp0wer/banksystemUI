@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ADF9045C-8AF7-4E0D-BD33-229855F26A32}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>banksystemUI</RootNamespace>
+    <AssemblyName>banksystemUI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="ToolForm\AdminAddAndChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolForm\AdminAddAndChange.Designer.cs">
+      <DependentUpon>AdminAddAndChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\AdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\AdminForm.Designer.cs">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\AdressForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\AdressForm.Designer.cs">
+      <DependentUpon>AdressForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolForm\AdressAddAndChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolForm\AdressAddAndChange.Designer.cs">
+      <DependentUpon>AdressAddAndChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\UserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\UserForm.Designer.cs">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginFrom.Designer.cs">
+      <DependentUpon>LoginFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ToolForm\UserAddAndChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolForm\UserAddAndChange.Designer.cs">
+      <DependentUpon>UserAddAndChange.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ToolForm\AdressAddAndChange.resx">
+      <DependentUpon>AdressAddAndChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolForm\UserAddAndChange.resx">
+      <DependentUpon>UserAddAndChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolForm\AdminAddAndChange.resx">
+      <DependentUpon>AdminAddAndChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\AdminForm.resx">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\AdressForm.resx">
+      <DependentUpon>AdressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginFrom.resx">
+      <DependentUpon>LoginFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Form\UserForm.resx">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v2-d56f09aab583d4ab796441dd6c1d597d_r.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v2-d56f09aab583d4ab796441dd6c1d597d_r1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{0493df9a-e3fe-4681-b024-daa4c4839635}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{408d20f1-e15f-4efb-9028-59e3c19a32c3}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\baocun.png" />
+    <Content Include="Images\bianji.png" />
+    <Content Include="Images\chaxun.png" />
+    <Content Include="Images\dizhi.png" />
+    <Content Include="Images\dizhitianjia.png" />
+    <Content Include="Images\kehu--tianjiakehu.png" />
+    <Content Include="Images\kehu.png" />
+    <Content Include="Images\quxiao.png" />
+    <Content Include="Images\tianjia.png" />
+    <Content Include="Images\tianjiadizhi2.png" />
+    <Content Include="Images\tianjiakehu_1.png" />
+    <Content Include="Images\tuichu.png" />
+    <Content Include="Images\yonghu.png" />
+    <Content Include="Images\yonghutianjia.png" />
+    <Content Include="Images\zgyh.ico" />
+    <Content Include="Images\zgyh.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

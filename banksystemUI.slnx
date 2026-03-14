@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="banksystemUI/banksystemUI.csproj" Id="adf9045c-8af7-4e0d-bd33-229855f26a32" />
+  <Project Path="DAL/DAL.csproj" Id="0493df9a-e3fe-4681-b024-daa4c4839635" />
+  <Project Path="IDAL/IDAL.csproj" Id="55f463f7-16dc-43ef-8ef2-6acb7158abdc" />
+  <Project Path="Model/Model.csproj" Id="408d20f1-e15f-4efb-9028-59e3c19a32c3" />
+  <Project Path="WindowsFormsApp1/WindowsFormsApp1.csproj" Id="fa91704c-89aa-491b-8d69-b5f6d84bbb0f" />
+</Solution>
