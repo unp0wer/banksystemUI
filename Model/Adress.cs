@@ -15,7 +15,7 @@ namespace Model
         public string Number{get;set; }
         public override string ToString()
         {
-            return $"{Provice}，{City}，{County}，{Road}，{Number}\n";
+            return $"{Provice}{City}{County}{Road}{Number}\n";
         }
     }
 }

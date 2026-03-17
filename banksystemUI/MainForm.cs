@@ -82,11 +82,11 @@ namespace banksystemUI
                 {
                     if (child is UserForm)
                     {
-                        userForm.dataGridView1.DataSource = UserDAL.GetAllUser();
+                        userForm.dataGridView1.DataSource = userForm.userDAL.GetAllUser();
                     }
                     else if (child is AdressForm)
                     {
-                        var addressList = AdressDAL.GetAllAdress();
+                        var addressList = adressForm.adressDAL.GetAllAdress();
                         adressForm.dataGridView1.BringToFront();
                         //设置表头高度以适应多行表头
                         adressForm.dataGridView1.DataSource = addressList;
@@ -94,7 +94,7 @@ namespace banksystemUI
                     else if (child is AdminForm)
                     {
 
-                        adminForm.dataGridView1.DataSource = AdminDAL.GetAllAdmin();
+                        adminForm.dataGridView1.DataSource = adminForm.adminDAL.GetAllAdmin();
 
 
                     }

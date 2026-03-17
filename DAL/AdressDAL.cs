@@ -57,7 +57,7 @@ namespace DAL
             }
         }
             };
-        public static List<object> GetAllAdress()
+        public List<object> GetAllAdress()
         {
             var addressDict = Adresses;
 

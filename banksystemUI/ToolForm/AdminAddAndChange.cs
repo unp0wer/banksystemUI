@@ -61,7 +61,7 @@ namespace banksystemUI
                 }
                 MainForm.current_mainForm.adminForm.adminDAL.Add(new Model.Admin
                 {
-                    Id = AdminDAL.GetAllAdmin().Count + 1,
+                    Id = MainForm.current_mainForm.adminForm.adminDAL.GetAllAdmin().Count + 1,
                     account = Account.Text,
                     password = Password.Text
                 });
@@ -70,7 +70,7 @@ namespace banksystemUI
             }
 
             MainForm.current_mainForm.adminForm.dataGridView1.DataSource = null;//重新绑定数据源才会时时更新修改后的数据
-            MainForm.current_mainForm.adminForm.dataGridView1.DataSource = AdminDAL.GetAllAdmin();
+            MainForm.current_mainForm.adminForm.dataGridView1.DataSource = MainForm.current_mainForm.adminForm.adminDAL.GetAllAdmin();
 
             this.Close();
         }

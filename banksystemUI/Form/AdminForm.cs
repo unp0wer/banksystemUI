@@ -39,7 +39,7 @@ namespace banksystemUI
             }
             adminDAL.Delete((int)dataGridView1.SelectedRows[0].Cells[0].Value);
             MainForm.current_mainForm.adminForm.dataGridView1.DataSource = null;
-            dataGridView1.DataSource = AdminDAL.GetAllAdmin();
+            dataGridView1.DataSource = adminDAL.GetAllAdmin();
         }
 
         private void BtnChange_Click(object sender, EventArgs e)
@@ -62,10 +62,10 @@ namespace banksystemUI
         private void BtnFind_Click(object sender, EventArgs e)
         {
             List<Admin> findAdmins = new List<Admin>();
-            MainForm.current_mainForm.adminForm.dataGridView1.DataSource = AdminDAL.GetAllAdmin();
+            MainForm.current_mainForm.adminForm.dataGridView1.DataSource = adminDAL.GetAllAdmin();
             if (!string.IsNullOrWhiteSpace(textBox1.Text))
             {
-                findAdmins = AdminDAL.GetAllAdmin().FindAll(a => a.Id == int.Parse(textBox1.Text));
+                findAdmins = adminDAL.GetAllAdmin().FindAll(a => a.Id == int.Parse(textBox1.Text));
             }
             if (!string.IsNullOrWhiteSpace(textBox2.Text))
             {

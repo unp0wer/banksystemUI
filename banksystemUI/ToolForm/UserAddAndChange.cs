@@ -58,7 +58,7 @@ namespace banksystemUI.ToolForm
                 }
                 MainForm.current_mainForm.userForm.userDAL.Add(new Model.User
                 {
-                    Id = UserDAL.GetAllUser().Count + 1,
+                    Id = MainForm.current_mainForm.userForm.userDAL.GetAllUser().Count + 1,
                     account = Account.Text,
                     password = Password.Text
                 });
@@ -67,7 +67,7 @@ namespace banksystemUI.ToolForm
             }
 
             MainForm.current_mainForm.userForm.dataGridView1.DataSource = null;//重新绑定数据源才会时时更新修改后的数据
-            MainForm.current_mainForm.userForm.dataGridView1.DataSource = UserDAL.GetAllUser();
+            MainForm.current_mainForm.userForm.dataGridView1.DataSource = MainForm.current_mainForm.userForm.userDAL.GetAllUser();
 
             this.Close();
         }

@@ -35,8 +35,7 @@ namespace DAL
                 password="admin4",
             }
         };
-
-        public static List<Admin> GetAllAdmin()
+        public List<Admin> GetAllAdmin()
         {
             return Admins;
         }
@@ -100,5 +99,7 @@ namespace DAL
             CurrentAdmin = null;
             return true;
         }
+
+
     }
 }

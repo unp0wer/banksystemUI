@@ -19,6 +19,6 @@ namespace IDAL
 
 
         Adress Find(int id);//查询
-
+        List<object> GetAllAdress();
     }
 }

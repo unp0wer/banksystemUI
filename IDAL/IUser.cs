@@ -8,5 +8,6 @@ namespace IDAL
 {
     public interface IUser:IBase<User>
     {
+        List<User> GetAllUser();
     }
 }

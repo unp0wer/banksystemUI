@@ -43,7 +43,7 @@ namespace banksystemUI
             else
             {
                 MainForm.current_mainForm.adressForm.adressDAL.Add(
-                    UserDAL.GetAllUser().Count + 1,
+                    MainForm.current_mainForm.adressForm.adressDAL.GetAllAdress().Count + 1,
                     new Model.Adress
                     {
 
@@ -58,7 +58,7 @@ namespace banksystemUI
             }
 
             MainForm.current_mainForm.adressForm.dataGridView1.DataSource = null;//重新绑定数据源才会时时更新修改后的数据
-            MainForm.current_mainForm.adressForm.dataGridView1.DataSource = AdressDAL.GetAllAdress();
+            MainForm.current_mainForm.adressForm.dataGridView1.DataSource = MainForm.current_mainForm.adressForm.adressDAL.GetAllAdress();
             this.Close();
         }
     }

@@ -45,7 +45,7 @@ namespace banksystemUI
             }
             adressDAL.Delete((int)dataGridView1.SelectedRows[0].Cells[0].Value);
             MainForm.current_mainForm.adressForm.dataGridView1.DataSource = null;
-            dataGridView1.DataSource = AdressDAL.GetAllAdress();
+            dataGridView1.DataSource = adressDAL.GetAllAdress();
 
 
         }
@@ -73,6 +73,20 @@ namespace banksystemUI
 
         private void BtnFind_Click(object sender, EventArgs e)
         {
+                string keyword = TxtAdress.Text.Trim();
+                if (string.IsNullOrEmpty(keyword))
+                {
+                    MessageBox.Show("请输入要搜索的关键词");
+                    return;
+                }
+                var results = adressDAL.GetAllAdress().Where(item =>
+                    item.ToString().Contains(keyword)).ToList();
+                if (results.Count == 0)
+                {
+                    MessageBox.Show("未找到匹配的地址");
+                    return;
+                }
+                dataGridView1.DataSource = results;
 
         }
     }

@@ -32,7 +32,7 @@ namespace DAL
                 password="admin3",
            }
         };
-        public static List<User> GetAllUser()
+        public  List<User> GetAllUser()
         {
             return Users;
         }

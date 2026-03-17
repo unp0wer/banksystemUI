@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.TxtAdress = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
@@ -66,12 +66,12 @@
             this.textBox2.Location = new System.Drawing.Point(778, 109);
             this.textBox2.Size = new System.Drawing.Size(10, 25);
             // 
-            // textBox3
+            // TxtAdress
             // 
-            this.textBox3.Location = new System.Drawing.Point(600, 100);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 25);
-            this.textBox3.TabIndex = 14;
+            this.TxtAdress.Location = new System.Drawing.Point(600, 100);
+            this.TxtAdress.Name = "TxtAdress";
+            this.TxtAdress.Size = new System.Drawing.Size(100, 25);
+            this.TxtAdress.TabIndex = 14;
             // 
             // label3
             // 
@@ -98,7 +98,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.TxtAdress);
             this.Controls.Add(this.label3);
             this.Name = "AdressForm";
             this.Text = "地址";
@@ -112,7 +112,7 @@
             this.Controls.SetChildIndex(this.BtnFind, 0);
             this.Controls.SetChildIndex(this.textBox1, 0);
             this.Controls.SetChildIndex(this.label3, 0);
-            this.Controls.SetChildIndex(this.textBox3, 0);
+            this.Controls.SetChildIndex(this.TxtAdress, 0);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -122,7 +122,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox TxtAdress;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
     }

@@ -20,7 +20,7 @@ namespace banksystemUI
         public UserForm()
         {
             InitializeComponent();
-            dataGridView1.DataSource = DAL.UserDAL.GetAllUser();
+            dataGridView1.DataSource = userDAL.GetAllUser();
         }
 
         public void Btnadd_Click(object sender, EventArgs e)
@@ -41,7 +41,7 @@ namespace banksystemUI
             }
             userDAL.Delete((int)dataGridView1.SelectedRows[0].Cells[0].Value);
             MainForm.current_mainForm.userForm.dataGridView1.DataSource = null;
-            dataGridView1.DataSource = UserDAL.GetAllUser();
+            dataGridView1.DataSource = userDAL.GetAllUser();
         }
 
         private void BtnChange_Click(object sender, EventArgs e)
@@ -64,8 +64,8 @@ namespace banksystemUI
         private void BtnFind_Click(object sender, EventArgs e)
         {
             List<User> findUsers = new List<User>();
-            MainForm.current_mainForm.userForm.dataGridView1.DataSource = UserDAL.GetAllUser();
-            findUsers = UserDAL.GetAllUser();
+            MainForm.current_mainForm.userForm.dataGridView1.DataSource = userDAL.GetAllUser();
+            findUsers = userDAL.GetAllUser();
             if (!string.IsNullOrWhiteSpace(textBox1.Text))
             {
                 findUsers = findUsers.FindAll(a => a.Id == int.Parse(textBox1.Text));

@@ -11,5 +11,6 @@ namespace IDAL
     {
         bool Login(string account, string password);
         bool Logout();
+        List<Admin> GetAllAdmin();
     }
 }

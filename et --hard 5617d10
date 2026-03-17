@@ -1,0 +1,14 @@
+[33m7b5fb63[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mWinform[m[33m, [m[1;31morigin/Winform[m[33m)[m HEAD@{0}: reset: moving to HEAD
+[33m7b5fb63[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mWinform[m[33m, [m[1;31morigin/Winform[m[33m)[m HEAD@{1}: commit (merge): Merge branch 'Winform' of https://github.com/unp0wer/banksystemUI into Winform
+[33m5617d10[m HEAD@{2}: reset: moving to HEAD
+[33m5617d10[m HEAD@{3}: pull --tags origin Winform: updating HEAD
+[33m5617d10[m HEAD@{4}: commit (amend): 提交项目代码
+[33mb7a56fd[m HEAD@{5}: commit: 提交项目代码
+[33m7393371[m HEAD@{6}: commit: 忽略VS缓存文件 修复提交权限错误
+[33m44239c3[m HEAD@{7}: checkout: moving from main to Winform
+[33mddb07d4[m[33m ([m[1;32mmain[m[33m)[m HEAD@{8}: commit: To deltate a useless file
+[33m44239c3[m HEAD@{9}: checkout: moving from Winform to main
+[33m44239c3[m HEAD@{10}: checkout: moving from Winform to Winform
+[33m44239c3[m HEAD@{11}: checkout: moving from main to Winform
+[33m44239c3[m HEAD@{12}: checkout: moving from main to main
+[33m44239c3[m HEAD@{13}: commit (initial): first commit
