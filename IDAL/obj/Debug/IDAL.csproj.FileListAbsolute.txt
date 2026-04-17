@@ -16,3 +16,12 @@ F:\really study\winform\banksystemUI\IDAL\obj\Debug\IDAL.csproj.CoreCompileInput
 F:\really study\winform\banksystemUI\IDAL\obj\Debug\IDAL.csproj.Up2Date
 F:\really study\winform\banksystemUI\IDAL\obj\Debug\IDAL.dll
 F:\really study\winform\banksystemUI\IDAL\obj\Debug\IDAL.pdb
+F:\really study\winform\banksystemUI - sql sever\IDAL\bin\Debug\IDAL.dll
+F:\really study\winform\banksystemUI - sql sever\IDAL\bin\Debug\IDAL.pdb
+F:\really study\winform\banksystemUI - sql sever\IDAL\bin\Debug\Model.dll
+F:\really study\winform\banksystemUI - sql sever\IDAL\bin\Debug\Model.pdb
+F:\really study\winform\banksystemUI - sql sever\IDAL\obj\Debug\IDAL.csproj.AssemblyReference.cache
+F:\really study\winform\banksystemUI - sql sever\IDAL\obj\Debug\IDAL.csproj.CoreCompileInputs.cache
+F:\really study\winform\banksystemUI - sql sever\IDAL\obj\Debug\IDAL.csproj.Up2Date
+F:\really study\winform\banksystemUI - sql sever\IDAL\obj\Debug\IDAL.dll
+F:\really study\winform\banksystemUI - sql sever\IDAL\obj\Debug\IDAL.pdb

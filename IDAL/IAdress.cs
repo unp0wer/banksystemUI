@@ -10,7 +10,7 @@ namespace IDAL
     {
 
 
-        bool Add(int id, Adress adress);//增加
+        bool Add(Adress adress);//增加
 
 
         bool Delete(int id);//删除
@@ -19,6 +19,6 @@ namespace IDAL
 
 
         Adress Find(int id);//查询
-        List<object> GetAllAdress();
+        List<Adress> GetAllAdress(string where, int ID = -1, string Account = null);
     }
 }

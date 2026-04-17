@@ -1,19 +1,17 @@
-﻿using DAL;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 using System.Windows.Forms;
+using BLL;
+using Model;
+using static banksystemUI.ToolForm.AllAdressDic;
 
 namespace banksystemUI
 {
     public partial class AdressAddAndChange : Form
     {
-        private bool _isEdit;
+        // 实例化BLL层，仅调用BLL，禁止直接操作DAL
+        private readonly AdressBLL _adressBLL = new AdressBLL();
+        private readonly bool _isEdit;
+
         public AdressAddAndChange(bool isEdit = false)
         {
             _isEdit = isEdit;
@@ -22,45 +20,90 @@ namespace banksystemUI
 
         private void BtnAdressChange_Click(object sender, EventArgs e)
         {
-            if (_isEdit)
+            try
             {
+                // 基础非空验证（可根据需求扩展）
+                if (string.IsNullOrWhiteSpace(CbbProvince.Text) || string.IsNullOrWhiteSpace(CbbCity.Text))
+                {
+                    MessageBox.Show("请选择省/市！");
+                    return;
+                }
 
-                MainForm.current_mainForm.adressForm.adressDAL.Change(
-                    int.Parse(MainForm.current_mainForm.adressForm.dataGridView1.CurrentRow.Cells[0].Value.ToString()),
-                    new Model.Adress
+                if (_isEdit)
+                {
+                    // ============== 修改地址 ==============
+                    int addressId = int.Parse(MainForm.current_mainForm.adressForm.dataGridView1.CurrentRow.Cells["Id"].Value.ToString());
+                    Adress adress = new Adress
                     {
-                       
-                        Provice = Txtprovince.Text,
-                        City = TxtCity.Text,
-                        County = TxtCounty.Text,
+                        Province = CbbProvince.Text,
+                        City = CbbCity.Text,
+                        County = CbbCounty.Text,
                         Road = TxtRoad.Text,
                         Number = TxtNumber.Text
-                    }
-                    );
-                MessageBox.Show("修改成功");
+                    };
 
-            }
-            else
-            {
-                MainForm.current_mainForm.adressForm.adressDAL.Add(
-                    MainForm.current_mainForm.adressForm.adressDAL.GetAllAdress().Count + 1,
-                    new Model.Adress
+                    // 调用BLL修改方法
+                    bool result = _adressBLL.UpdateAdress(addressId, adress);
+                    MessageBox.Show(result ? "修改成功！" : "修改失败！");
+                }
+                else
+                {
+                    // ============== 添加地址 ==============
+                    Adress adress = new Adress
                     {
-
-                        Provice = Txtprovince.Text,
-                        City = TxtCity.Text,
-                        County = TxtCounty.Text,
+                        Province = CbbProvince.Text,
+                        City = CbbCity.Text,
+                        County = CbbCounty.Text,
                         Road = TxtRoad.Text,
                         Number = TxtNumber.Text
-                    }
-                );
-                MessageBox.Show("添加成功");
-            }
+                    };
 
-            MainForm.current_mainForm.adressForm.dataGridView1.DataSource = null;//重新绑定数据源才会时时更新修改后的数据
-            MainForm.current_mainForm.adressForm.dataGridView1.DataSource = MainForm.current_mainForm.adressForm.adressDAL.GetAllAdress();
-            this.Close();
+                    // 调用BLL添加方法
+                    bool result = _adressBLL.AddAdress(adress);
+                    MessageBox.Show(result ? "添加成功！" : "添加失败！");
+                }
+
+                // 关闭窗体，父窗体AdressForm的BindData会自动刷新数据
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"操作异常：{ex.Message}");
+            }
+        }
+
+        // ===================== 省市区联动逻辑（完全保留，不做修改）=====================
+        private void AdressAddAndChange_Load(object sender, EventArgs e)
+        {
+            CbbProvince.Items.Clear();
+            foreach (var province in ProvinceCityCountyDic.Keys)
+            {
+                CbbProvince.Items.Add(province);
+            }
+        }
+
+        private void CbbProvince_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            CbbCity.Items.Clear();
+            CbbCounty.Items.Clear();
+            ProvinceCityCountyDic.TryGetValue(CbbProvince.Text, out var cityCountyDic);
+            if (cityCountyDic != null)
+            {
+                foreach (var city in cityCountyDic.Keys)
+                {
+                    CbbCity.Items.Add(city);
+                }
+            }
+        }
+
+        private void CbbCity_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            CbbCounty.Items.Clear();
+            ProvinceCityCountyDic.TryGetValue(CbbProvince.Text, out var cityCountyDic);
+            if (cityCountyDic != null && cityCountyDic.TryGetValue(CbbCity.Text, out var countyList))
+            {
+                CbbCounty.Items.AddRange(countyList.ToArray());
+            }
         }
     }
-
 }

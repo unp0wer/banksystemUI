@@ -20,3 +20,22 @@ F:\really study\winform\banksystemUI\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.
 F:\really study\winform\banksystemUI\DAL\obj\Debug\DAL.csproj.Up2Date
 F:\really study\winform\banksystemUI\DAL\obj\Debug\DAL.dll
 F:\really study\winform\banksystemUI\DAL\obj\Debug\DAL.pdb
+F:\really study\winform\banksystemUI - sql sever\DAL\bin\Debug\DAL.dll
+F:\really study\winform\banksystemUI - sql sever\DAL\bin\Debug\DAL.pdb
+F:\really study\winform\banksystemUI - sql sever\DAL\bin\Debug\Dapper.dll
+F:\really study\winform\banksystemUI - sql sever\DAL\bin\Debug\IDAL.dll
+F:\really study\winform\banksystemUI - sql sever\DAL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+F:\really study\winform\banksystemUI - sql sever\DAL\bin\Debug\Model.dll
+F:\really study\winform\banksystemUI - sql sever\DAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\really study\winform\banksystemUI - sql sever\DAL\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\really study\winform\banksystemUI - sql sever\DAL\bin\Debug\IDAL.pdb
+F:\really study\winform\banksystemUI - sql sever\DAL\bin\Debug\Model.pdb
+F:\really study\winform\banksystemUI - sql sever\DAL\bin\Debug\Dapper.xml
+F:\really study\winform\banksystemUI - sql sever\DAL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+F:\really study\winform\banksystemUI - sql sever\DAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\really study\winform\banksystemUI - sql sever\DAL\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\really study\winform\banksystemUI - sql sever\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+F:\really study\winform\banksystemUI - sql sever\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+F:\really study\winform\banksystemUI - sql sever\DAL\obj\Debug\DAL.csproj.Up2Date
+F:\really study\winform\banksystemUI - sql sever\DAL\obj\Debug\DAL.dll
+F:\really study\winform\banksystemUI - sql sever\DAL\obj\Debug\DAL.pdb

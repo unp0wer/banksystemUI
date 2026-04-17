@@ -34,3 +34,38 @@ F:\really study\winform\banksystemUI\banksystemUI\obj\Debug\banksystemUI.AdressF
 F:\really study\winform\banksystemUI\banksystemUI\obj\Debug\banksystemUI.AdminAddAndChange.resources
 F:\really study\winform\banksystemUI\banksystemUI\obj\Debug\banksystemUI.ToolForm.UserAddAndChange.resources
 F:\really study\winform\banksystemUI\banksystemUI\obj\Debug\banksystemUI.AdressAddAndChange.resources
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\bin\Debug\banksystemUI.exe.config
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\bin\Debug\banksystemUI.exe
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\bin\Debug\banksystemUI.pdb
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\bin\Debug\BLL.dll
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\bin\Debug\Dapper.dll
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\bin\Debug\Model.dll
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\bin\Debug\DAL.dll
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\bin\Debug\IDAL.dll
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\bin\Debug\BLL.pdb
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\bin\Debug\Model.pdb
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\bin\Debug\Dapper.xml
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\bin\Debug\DAL.pdb
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\bin\Debug\IDAL.pdb
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\obj\Debug\banksystemUI.csproj.AssemblyReference.cache
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\obj\Debug\banksystemUI.AdressAddAndChange.resources
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\obj\Debug\banksystemUI.ToolForm.UserAddAndChange.resources
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\obj\Debug\banksystemUI.AdminAddAndChange.resources
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\obj\Debug\banksystemUI.AdminForm.resources
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\obj\Debug\banksystemUI.AdressForm.resources
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\obj\Debug\banksystemUI.BaseForm.resources
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\obj\Debug\banksystemUI.MainForm.resources
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\obj\Debug\banksystemUI.LoginFrom.resources
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\obj\Debug\banksystemUI.Properties.Resources.resources
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\obj\Debug\banksystemUI.UserForm.resources
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\obj\Debug\banksystemUI.csproj.GenerateResource.cache
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\obj\Debug\banksystemUI.csproj.CoreCompileInputs.cache
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\obj\Debug\banksyst.7CB52938.Up2Date
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\obj\Debug\banksystemUI.exe
+F:\really study\winform\banksystemUI - sql sever\banksystemUI\obj\Debug\banksystemUI.pdb

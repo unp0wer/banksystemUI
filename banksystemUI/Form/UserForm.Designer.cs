@@ -33,6 +33,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.Clear = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NumJumpPage)).BeginInit();
             this.SuspendLayout();
             // 
             // Btnadd
@@ -57,7 +58,31 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.EndTime);
             this.groupBox1.Controls.Add(this.StarTime);
-            this.groupBox1.Size = new System.Drawing.Size(800, 134);
+            this.groupBox1.Size = new System.Drawing.Size(908, 134);
+            // 
+            // btnNextPage
+            // 
+            this.btnNextPage.Click += new System.EventHandler(this.btnNextPage_Click);
+            // 
+            // btnPerviousPage
+            // 
+            this.btnPerviousPage.Click += new System.EventHandler(this.btnPerviousPage_Click);
+            // 
+            // btnFirstPage
+            // 
+            this.btnFirstPage.Click += new System.EventHandler(this.btnFirstPage_Click);
+            // 
+            // comboxLineNumber
+            // 
+            this.comboxLineNumber.SelectedIndexChanged += new System.EventHandler(this.comboxLineNumber_SelectedIndexChanged);
+            // 
+            // btnGoTOPage
+            // 
+            this.btnGoTOPage.Click += new System.EventHandler(this.btnGoTOPage_Click);
+            // 
+            // btnLastPage
+            // 
+            this.btnLastPage.Click += new System.EventHandler(this.btnLastPage_Click);
             // 
             // StarTime
             // 
@@ -103,11 +128,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(908, 549);
             this.Name = "UserForm";
             this.Text = "用户";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NumJumpPage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

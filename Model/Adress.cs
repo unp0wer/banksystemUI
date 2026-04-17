@@ -8,14 +8,15 @@ namespace Model
 {
     public class Adress
     {
-        public string Provice {get;set; }
+        public int Id { get; set; }
+        public string Province {get;set; }
         public string City {get;set; }
         public string County{get;set; }
         public string Road{get;set; }
         public string Number{get;set; }
         public override string ToString()
         {
-            return $"{Provice}{City}{County}{Road}{Number}\n";
+            return $"{Province}{City}{County}{Road}{Number}\n";
         }
     }
 }

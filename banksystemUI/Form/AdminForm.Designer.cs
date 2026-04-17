@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            ((System.ComponentModel.ISupportInitialize)(this.NumJumpPage)).BeginInit();
             this.SuspendLayout();
             // 
             // Btnadd
@@ -46,13 +47,52 @@
             // 
             this.BtnFind.Click += new System.EventHandler(this.BtnFind_Click);
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Size = new System.Drawing.Size(920, 134);
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // btnNextPage
+            // 
+            this.btnNextPage.Click += new System.EventHandler(this.btnNextPage_Click);
+            // 
+            // btnPerviousPage
+            // 
+            this.btnPerviousPage.Click += new System.EventHandler(this.btnPerviousPage_Click);
+            // 
+            // btnFirstPage
+            // 
+            this.btnFirstPage.Click += new System.EventHandler(this.btnFirstPage_Click);
+            // 
+            // comboxLineNumber
+            // 
+            this.comboxLineNumber.SelectedIndexChanged += new System.EventHandler(this.comboxLineNumber_SelectedIndexChanged);
+            // 
+            // NumJumpPage
+            // 
+            this.NumJumpPage.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // btnGoTOPage
+            // 
+            this.btnGoTOPage.Click += new System.EventHandler(this.btnGoTOPage_Click);
+            // 
+            // btnLastPage
+            // 
+            this.btnLastPage.Click += new System.EventHandler(this.btnLastPage_Click);
+            // 
             // AdminForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(920, 476);
             this.Name = "AdminForm";
             this.Text = "管理员";
+            this.Load += new System.EventHandler(this.AdminForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.NumJumpPage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

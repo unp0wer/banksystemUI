@@ -10,3 +10,9 @@ F:\really study\winform\banksystemUI\Model\obj\Debug\Model.dll
 F:\really study\winform\banksystemUI\Model\obj\Debug\Model.pdb
 F:\really study\winform\banksystemUI\Model\bin\Debug\Model.dll
 F:\really study\winform\banksystemUI\Model\bin\Debug\Model.pdb
+F:\really study\winform\banksystemUI - sql sever\Model\bin\Debug\Model.dll
+F:\really study\winform\banksystemUI - sql sever\Model\bin\Debug\Model.pdb
+F:\really study\winform\banksystemUI - sql sever\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+F:\really study\winform\banksystemUI - sql sever\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+F:\really study\winform\banksystemUI - sql sever\Model\obj\Debug\Model.dll
+F:\really study\winform\banksystemUI - sql sever\Model\obj\Debug\Model.pdb

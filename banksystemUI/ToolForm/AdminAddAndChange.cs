@@ -1,78 +1,105 @@
-﻿using DAL;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
+using BLL;
+using Model;
 
 namespace banksystemUI
 {
     public partial class AdminAddAndChange : Form
     {
-        private bool _isEdit;
+        // 实例化BLL，仅调用BLL，不直接操作DAL
+        private readonly AdminBLL _adminBLL = new AdminBLL();
+        private readonly bool _isEdit;
+
+        // 构造函数
         public AdminAddAndChange(bool isEdit = false)
         {
             this._isEdit = isEdit;
             InitializeComponent();
         }
+
+        #region 抽离重复的输入验证（代码复用）
+        /// <summary>
+        /// 验证账号密码格式
+        /// </summary>
+        private bool ValidateInput()
+        {
+            // 账号验证：5-12位字母数字
+            if (!Regex.IsMatch(Account.Text, @"^[a-zA-Z0-9]{3,12}$"))
+            {
+                MessageBox.Show("账号格式不正确，必须为5-12位字母或数字");
+                Account.Focus();
+                return false;
+            }
+            // 密码验证：6-12位字母数字
+            if (!Regex.IsMatch(Password.Text, @"^[a-zA-Z0-9]{3,12}$"))
+            {
+                MessageBox.Show("密码格式不正确，必须为6-12位字母或数字");
+                Password.Focus();
+                return false;
+            }
+            return true;
+        }
+        #endregion
+
         private void BtnAddOrChange_Click(object sender, EventArgs e)
         {
-            if (_isEdit)
-            {
-                //添加正则表达式验证输入的账号和密码是否合法
-                if (!System.Text.RegularExpressions.Regex.IsMatch(Account.Text, @"^[a-zA-Z0-9]{5,12}$"))
-                {
-                    MessageBox.Show("账号格式不正确，必须为5-12位字母或数字");
-                    return;
-                }
-                if (!System.Text.RegularExpressions.Regex.IsMatch(Password.Text, @"^[a-zA-Z0-9]{6,12}$"))
-                {
-                    MessageBox.Show("密码格式不正确，必须为6-12位字母或数字");
-                    return;
-                }
+            // 统一验证，不通过直接返回
+            if (!ValidateInput()) return;
 
-                MainForm.current_mainForm.adminForm.adminDAL.Change(
-                    new Model.Admin
+            try
+            {
+                if (_isEdit)
+                {
+                    // ============== 修改操作 ==============
+                    Admin admin = new Admin
                     {
-                        Id = int.Parse(MainForm.current_mainForm.adminForm.dataGridView1.CurrentRow.Cells[0].Value.ToString()),
+                        // 从父窗体获取当前选中行的ID（保留原有逻辑）
+                        Id = int.Parse(MainForm.current_mainForm.adminForm.dataGridView1.CurrentRow.Cells["Id"].Value.ToString()),
                         account = Account.Text,
                         password = Password.Text
+                    };
+
+                    // 调用BLL修改方法
+                    bool result = _adminBLL.UpdateAdmin(admin);
+                    if (result)
+                    {
+                        MessageBox.Show("修改成功！");
                     }
-                    );
-                MessageBox.Show("修改成功");
+                    else
+                    {
+                        MessageBox.Show("修改失败！");
+                    }
+                }
+                else
+                {
+                    // ============== 添加操作 ==============
+                    Admin admin = new Admin
+                    {
+                        account = Account.Text,
+                        password = Password.Text
+                    };
 
+                    // 调用BLL添加方法
+                    bool result = _adminBLL.AddAdmin(admin);
+                    if (result)
+                    {
+                        MessageBox.Show("添加成功！");
+                    }
+                    else
+                    {
+                        MessageBox.Show("添加失败！");
+                    }
+                }
+
+                // 关闭当前窗体，父窗体已封装BindData会自动刷新
+                this.Close();
             }
-            else
+            catch (Exception ex)
             {
-                //添加正则表达式验证输入的账号和密码是否合法
-                if (!System.Text.RegularExpressions.Regex.IsMatch(Account.Text, @"^[a-zA-Z0-9]{5,12}$"))
-                {
-                    MessageBox.Show("账号格式不正确，必须为5-12位字母或数字");
-                    return;
-                }
-                if (!System.Text.RegularExpressions.Regex.IsMatch(Password.Text, @"^[a-zA-Z0-9]{6,12}$"))
-                {
-                    MessageBox.Show("密码格式不正确，必须为6-12位字母或数字");
-                    return;
-                }
-                MainForm.current_mainForm.adminForm.adminDAL.Add(new Model.Admin
-                {
-                    Id = MainForm.current_mainForm.adminForm.adminDAL.GetAllAdmin().Count + 1,
-                    account = Account.Text,
-                    password = Password.Text
-                });
-                MessageBox.Show("添加成功");
-
+                MessageBox.Show($"操作异常：{ex.Message}");
             }
-
-            MainForm.current_mainForm.adminForm.dataGridView1.DataSource = null;//重新绑定数据源才会时时更新修改后的数据
-            MainForm.current_mainForm.adminForm.dataGridView1.DataSource = MainForm.current_mainForm.adminForm.adminDAL.GetAllAdmin();
-
-            this.Close();
         }
     }
 }

@@ -28,9 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Txtprovince = new System.Windows.Forms.TextBox();
-            this.TxtCity = new System.Windows.Forms.TextBox();
-            this.TxtCounty = new System.Windows.Forms.TextBox();
             this.TxtRoad = new System.Windows.Forms.TextBox();
             this.TxtNumber = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -39,41 +36,23 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.BtnAdressChange = new System.Windows.Forms.Button();
+            this.CbbProvince = new System.Windows.Forms.ComboBox();
+            this.CbbCity = new System.Windows.Forms.ComboBox();
+            this.CbbCounty = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
-            // 
-            // Txtprovince
-            // 
-            this.Txtprovince.Location = new System.Drawing.Point(207, 27);
-            this.Txtprovince.Name = "Txtprovince";
-            this.Txtprovince.Size = new System.Drawing.Size(100, 25);
-            this.Txtprovince.TabIndex = 0;
-            // 
-            // TxtCity
-            // 
-            this.TxtCity.Location = new System.Drawing.Point(207, 91);
-            this.TxtCity.Name = "TxtCity";
-            this.TxtCity.Size = new System.Drawing.Size(100, 25);
-            this.TxtCity.TabIndex = 1;
-            // 
-            // TxtCounty
-            // 
-            this.TxtCounty.Location = new System.Drawing.Point(207, 159);
-            this.TxtCounty.Name = "TxtCounty";
-            this.TxtCounty.Size = new System.Drawing.Size(100, 25);
-            this.TxtCounty.TabIndex = 2;
             // 
             // TxtRoad
             // 
             this.TxtRoad.Location = new System.Drawing.Point(207, 229);
             this.TxtRoad.Name = "TxtRoad";
-            this.TxtRoad.Size = new System.Drawing.Size(100, 25);
+            this.TxtRoad.Size = new System.Drawing.Size(121, 25);
             this.TxtRoad.TabIndex = 3;
             // 
             // TxtNumber
             // 
             this.TxtNumber.Location = new System.Drawing.Point(207, 299);
             this.TxtNumber.Name = "TxtNumber";
-            this.TxtNumber.Size = new System.Drawing.Size(100, 25);
+            this.TxtNumber.Size = new System.Drawing.Size(121, 25);
             this.TxtNumber.TabIndex = 4;
             // 
             // label1
@@ -135,11 +114,43 @@
             this.BtnAdressChange.UseVisualStyleBackColor = true;
             this.BtnAdressChange.Click += new System.EventHandler(this.BtnAdressChange_Click);
             // 
+            // CbbProvince
+            // 
+            this.CbbProvince.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CbbProvince.FormattingEnabled = true;
+            this.CbbProvince.Location = new System.Drawing.Point(207, 33);
+            this.CbbProvince.Name = "CbbProvince";
+            this.CbbProvince.Size = new System.Drawing.Size(121, 23);
+            this.CbbProvince.TabIndex = 7;
+            this.CbbProvince.SelectedIndexChanged += new System.EventHandler(this.CbbProvince_SelectedIndexChanged);
+            // 
+            // CbbCity
+            // 
+            this.CbbCity.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CbbCity.FormattingEnabled = true;
+            this.CbbCity.Location = new System.Drawing.Point(207, 93);
+            this.CbbCity.Name = "CbbCity";
+            this.CbbCity.Size = new System.Drawing.Size(121, 23);
+            this.CbbCity.TabIndex = 8;
+            this.CbbCity.SelectedIndexChanged += new System.EventHandler(this.CbbCity_SelectedIndexChanged);
+            // 
+            // CbbCounty
+            // 
+            this.CbbCounty.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CbbCounty.FormattingEnabled = true;
+            this.CbbCounty.Location = new System.Drawing.Point(207, 161);
+            this.CbbCounty.Name = "CbbCounty";
+            this.CbbCounty.Size = new System.Drawing.Size(121, 23);
+            this.CbbCounty.TabIndex = 9;
+            // 
             // AdressAddAndChange
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(445, 430);
+            this.Controls.Add(this.CbbCounty);
+            this.Controls.Add(this.CbbCity);
+            this.Controls.Add(this.CbbProvince);
             this.Controls.Add(this.BtnAdressChange);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -148,11 +159,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TxtNumber);
             this.Controls.Add(this.TxtRoad);
-            this.Controls.Add(this.TxtCounty);
-            this.Controls.Add(this.TxtCity);
-            this.Controls.Add(this.Txtprovince);
             this.Name = "AdressAddAndChange";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.AdressAddAndChange_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -165,10 +174,10 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         public System.Windows.Forms.Button BtnAdressChange;
-        public System.Windows.Forms.TextBox Txtprovince;
-        public System.Windows.Forms.TextBox TxtCity;
-        public System.Windows.Forms.TextBox TxtCounty;
         public System.Windows.Forms.TextBox TxtRoad;
         public System.Windows.Forms.TextBox TxtNumber;
+        public System.Windows.Forms.ComboBox CbbProvince;
+        public System.Windows.Forms.ComboBox CbbCity;
+        public System.Windows.Forms.ComboBox CbbCounty;
     }
 }

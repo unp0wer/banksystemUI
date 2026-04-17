@@ -8,6 +8,6 @@ namespace IDAL
 {
     public interface IUser:IBase<User>
     {
-        List<User> GetAllUser();
+        List<User> GetAllUser(string where, int ID = -1, string Account = null, DateTime? StartTime = null, DateTime? EndTime = null);
     }
 }

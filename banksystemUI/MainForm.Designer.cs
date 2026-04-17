@@ -105,15 +105,15 @@
             // 退出当前账号ToolStripMenuItem
             // 
             this.退出当前账号ToolStripMenuItem.Name = "退出当前账号ToolStripMenuItem";
-            this.退出当前账号ToolStripMenuItem.Size = new System.Drawing.Size(182, 26);
+            this.退出当前账号ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.退出当前账号ToolStripMenuItem.Text = "退出当前账号";
             this.退出当前账号ToolStripMenuItem.Click += new System.EventHandler(this.退出当前账号ToolStripMenuItem_Click);
             // 
             // 推出应用程序ToolStripMenuItem
             // 
             this.推出应用程序ToolStripMenuItem.Name = "推出应用程序ToolStripMenuItem";
-            this.推出应用程序ToolStripMenuItem.Size = new System.Drawing.Size(182, 26);
-            this.推出应用程序ToolStripMenuItem.Text = "推出应用程序";
+            this.推出应用程序ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.推出应用程序ToolStripMenuItem.Text = "退出应用程序";
             this.推出应用程序ToolStripMenuItem.Click += new System.EventHandler(this.推出应用程序ToolStripMenuItem_Click);
             // 
             // toolStrip1
@@ -202,6 +202,7 @@
             this.LabelTime.Name = "LabelTime";
             this.LabelTime.Size = new System.Drawing.Size(42, 20);
             this.LabelTime.Text = "time";
+            this.LabelTime.Click += new System.EventHandler(this.LabelTime_Click);
             // 
             // toolStripSeparator4
             // 

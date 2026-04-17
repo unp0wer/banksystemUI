@@ -1,57 +1,82 @@
-﻿using DAL;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 using System.Windows.Forms;
 
 namespace banksystemUI
 {
     public partial class MainForm : Form
     {
-        bool isSuperAdmin;
-        public AdressForm adressForm;
-        public UserForm userForm;
-        public AdminForm adminForm;
+        private readonly bool isSuperAdmin;
+        public readonly AdressForm adressForm;
+        public readonly UserForm userForm;
+        public readonly AdminForm adminForm;
         public static MainForm current_mainForm;
-
 
         public static void ToNewMainForm(bool isSuperAdmin)
         {
-
             current_mainForm = new MainForm(isSuperAdmin);
             current_mainForm.ShowDialog();
         }
+
         public MainForm(bool isSuperAdmin)
         {
             InitializeComponent();
             LabelTime.Text = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
             this.isSuperAdmin = isSuperAdmin;
+            current_mainForm = this;
 
-            if (isSuperAdmin)
-            {
-                this.Text = $"{SuperDAL.CurrentSuperAdmin}";
-                adminForm = new AdminForm();
-                adminForm.MdiParent = this;
-
-
-            }
-            else
-            {
-                this.Text = $"{AdminDAL.CurrentAdmin}";
-            }
-            管理员GToolStripMenuItem.Visible = isSuperAdmin;
+            // 初始化子窗体
             userForm = new UserForm();
             userForm.MdiParent = this;
             adressForm = new AdressForm();
             adressForm.MdiParent = this;
 
+            // 超级管理员才加载管理员窗体
+            if (isSuperAdmin)
+            {
+                adminForm = new AdminForm();
+                adminForm.MdiParent = this;
+            }
+            else
+            {
+                adminForm = null;
+            }
+            管理员GToolStripMenuItem.Visible = isSuperAdmin;
         }
 
+        /// <summary>
+        /// 统一打开MDI子窗体（优化：直接调用子窗体BindData刷新）
+        /// </summary>
+        private void OpenForm(Form form)
+        {
+            if (form == null) return;
+
+            // 隐藏所有子窗体
+            foreach (Form child in this.MdiChildren)
+            {
+                child.Hide();
+                child.WindowState = FormWindowState.Minimized;
+            }
+
+            // 显示目标窗体
+            form.Show();
+            form.WindowState = FormWindowState.Maximized;
+
+            // 核心：调用子窗体自身的BindData刷新数据（不直接操作DAL）
+            switch (form)
+            {
+                case UserForm userForm:
+                    userForm.BindData();
+                    break;
+                case AdressForm adressForm:
+                    adressForm.BindData();
+                    break;
+                case AdminForm adminForm:
+                    adminForm.BindData();
+                    break;
+            }
+        }
+
+        #region 菜单点击事件
         private void 管理员GToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OpenForm(adminForm);
@@ -65,53 +90,18 @@ namespace banksystemUI
         private void 地址ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OpenForm(adressForm);
-
         }
-        private void OpenForm(Form form)
-        {
-            foreach (Form child in this.MdiChildren)
-            {
-                child.Visible = false;
-                child.WindowState = FormWindowState.Minimized;
-            }
-            form.Visible = true;
-            form.WindowState = FormWindowState.Maximized;
-            foreach (Form child in current_mainForm.MdiChildren)
-            {
-                if (child.Visible)
-                {
-                    if (child is UserForm)
-                    {
-                        userForm.dataGridView1.DataSource = userForm.userDAL.GetAllUser();
-                    }
-                    else if (child is AdressForm)
-                    {
-                        var addressList = adressForm.adressDAL.GetAllAdress();
-                        adressForm.dataGridView1.BringToFront();
-                        //设置表头高度以适应多行表头
-                        adressForm.dataGridView1.DataSource = addressList;
-                    }
-                    else if (child is AdminForm)
-                    {
+        #endregion
 
-                        adminForm.dataGridView1.DataSource = adminForm.adminDAL.GetAllAdmin();
-
-
-                    }
-                }
-            }
-        }
-
+        #region 退出相关
         private void 退出当前账号ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("确定要退出当前账号吗？", "退出", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (result == DialogResult.Yes)
             {
-                this.Hide();
                 this.Close();
                 LoginFrom loginForm = new LoginFrom();
                 loginForm.ShowDialog();
-                this.Close();
             }
         }
 
@@ -123,15 +113,18 @@ namespace banksystemUI
                 Application.Exit();
             }
         }
+        #endregion
 
+        // 定时器刷新时间
         private void timer1_Tick(object sender, EventArgs e)
         {
             LabelTime.Text = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
         }
 
+        #region 工具栏快捷按钮
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
-            adminForm.Btnadd_Click(sender, e);
+            adminForm?.Btnadd_Click(sender, e);
             OpenForm(adminForm);
         }
 
@@ -139,17 +132,15 @@ namespace banksystemUI
         {
             userForm.Btnadd_Click(sender, e);
             OpenForm(userForm);
-
         }
 
         private void toolStripButton3_Click(object sender, EventArgs e)
         {
-            adressForm.BtnChange_Click(sender, e);
+            adressForm.Btnadd_Click(sender, e);
             OpenForm(adressForm);
         }
+        #endregion
 
-
-
+        private void LabelTime_Click(object sender, EventArgs e) { }
     }
-
 }

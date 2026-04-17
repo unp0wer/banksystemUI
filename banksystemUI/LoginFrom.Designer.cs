@@ -75,7 +75,7 @@
             this.account.Name = "account";
             this.account.Size = new System.Drawing.Size(208, 25);
             this.account.TabIndex = 0;
-            this.account.Text = "SuperAdmin";
+            this.account.Text = "superadmin";
             // 
             // password
             // 
@@ -84,7 +84,7 @@
             this.password.PasswordChar = '*';
             this.password.Size = new System.Drawing.Size(208, 25);
             this.password.TabIndex = 1;
-            this.password.Text = "123456";
+            this.password.Text = "superadmin";
             this.password.TextChanged += new System.EventHandler(this.password_TextChanged);
             // 
             // superPower

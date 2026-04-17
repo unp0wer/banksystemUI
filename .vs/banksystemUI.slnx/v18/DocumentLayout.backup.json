@@ -1,46 +1,146 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\really study\\winform\\banksystemUI\\",
+  "WorkspaceRootPath": "F:\\really study\\winform\\banksystemUI - sql sever\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|f:\\really study\\winform\\banksystemui\\banksystemui\\form\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|solutionrelative:banksystemui\\form\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\banksystemui\\toolform\\adminaddandchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|solutionrelative:banksystemui\\toolform\\adminaddandchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|F:\\really study\\winform\\banksystemUI\\banksystemui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|f:\\really study\\winform\\banksystemui - sql sever\\banksystemui\\toolform\\adminaddandchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|solutionrelative:banksystemui\\toolform\\adminaddandchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\banksystemui\\toolform\\adressaddandchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|solutionrelative:banksystemui\\toolform\\adressaddandchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|f:\\really study\\winform\\banksystemui - sql sever\\banksystemui\\toolform\\adressaddandchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|solutionrelative:banksystemui\\toolform\\adressaddandchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\banksystemui\\toolform\\useraddandchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|solutionrelative:banksystemui\\toolform\\useraddandchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|f:\\really study\\winform\\banksystemui - sql sever\\banksystemui\\toolform\\useraddandchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|solutionrelative:banksystemui\\toolform\\useraddandchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|f:\\really study\\winform\\banksystemui - sql sever\\banksystemui\\toolform\\adminaddandchange.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|solutionrelative:banksystemui\\toolform\\adminaddandchange.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\banksystemui\\form\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|solutionrelative:banksystemui\\form\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\banksystemui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|solutionrelative:banksystemui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|F:\\really study\\winform\\banksystemUI\\banksystemui\\form\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|f:\\really study\\winform\\banksystemui - sql sever\\banksystemui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|solutionrelative:banksystemui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD447C85-AD6C-4BE8-A594-BAC89D27BF2A}|BLL\\BLL.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\bll\\superadminbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD447C85-AD6C-4BE8-A594-BAC89D27BF2A}|BLL\\BLL.csproj|solutionrelative:bll\\superadminbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD447C85-AD6C-4BE8-A594-BAC89D27BF2A}|BLL\\BLL.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\bll\\adressbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD447C85-AD6C-4BE8-A594-BAC89D27BF2A}|BLL\\BLL.csproj|solutionrelative:bll\\adressbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD447C85-AD6C-4BE8-A594-BAC89D27BF2A}|BLL\\BLL.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\bll\\adminbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD447C85-AD6C-4BE8-A594-BAC89D27BF2A}|BLL\\BLL.csproj|solutionrelative:bll\\adminbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0493DF9A-E3FE-4681-B024-DAA4C4839635}|DAL\\DAL.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\dal\\adressdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0493DF9A-E3FE-4681-B024-DAA4C4839635}|DAL\\DAL.csproj|solutionrelative:dal\\adressdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\banksystemui\\form\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|solutionrelative:banksystemui\\form\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\banksystemui\\form\\adressform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|solutionrelative:banksystemui\\form\\adressform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\banksystemui\\form\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|solutionrelative:banksystemui\\form\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\banksystemui\\form\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|solutionrelative:banksystemui\\form\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0493DF9A-E3FE-4681-B024-DAA4C4839635}|DAL\\DAL.csproj|F:\\really study\\winform\\banksystemUI\\dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\banksystemui\\form\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|solutionrelative:banksystemui\\form\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|f:\\really study\\winform\\banksystemui - sql sever\\banksystemui\\form\\baseform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|solutionrelative:banksystemui\\form\\baseform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0493DF9A-E3FE-4681-B024-DAA4C4839635}|DAL\\DAL.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0493DF9A-E3FE-4681-B024-DAA4C4839635}|DAL\\DAL.csproj|solutionrelative:dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55F463F7-16DC-43EF-8EF2-6ACB7158ABDC}|IDAL\\IDAL.csproj|F:\\really study\\winform\\banksystemUI\\idal\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0493DF9A-E3FE-4681-B024-DAA4C4839635}|DAL\\DAL.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\dal\\admindal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0493DF9A-E3FE-4681-B024-DAA4C4839635}|DAL\\DAL.csproj|solutionrelative:dal\\admindal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408D20F1-E15F-4EFB-9028-59E3C19A32C3}|Model\\Model.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\model\\adress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408D20F1-E15F-4EFB-9028-59E3C19A32C3}|Model\\Model.csproj|solutionrelative:model\\adress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\banksystemui\\loginfrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|solutionrelative:banksystemui\\loginfrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0493DF9A-E3FE-4681-B024-DAA4C4839635}|DAL\\DAL.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\dal\\superdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0493DF9A-E3FE-4681-B024-DAA4C4839635}|DAL\\DAL.csproj|solutionrelative:dal\\superdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\banksystemui\\form\\adressform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|solutionrelative:banksystemui\\form\\adressform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F463F7-16DC-43EF-8EF2-6ACB7158ABDC}|IDAL\\IDAL.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\idal\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55F463F7-16DC-43EF-8EF2-6ACB7158ABDC}|IDAL\\IDAL.csproj|solutionrelative:idal\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55F463F7-16DC-43EF-8EF2-6ACB7158ABDC}|IDAL\\IDAL.csproj|F:\\really study\\winform\\banksystemUI\\idal\\iadress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\banksystemui\\form\\userform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|solutionrelative:banksystemui\\form\\userform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408D20F1-E15F-4EFB-9028-59E3C19A32C3}|Model\\Model.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408D20F1-E15F-4EFB-9028-59E3C19A32C3}|Model\\Model.csproj|solutionrelative:model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F463F7-16DC-43EF-8EF2-6ACB7158ABDC}|IDAL\\IDAL.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\idal\\iadress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55F463F7-16DC-43EF-8EF2-6ACB7158ABDC}|IDAL\\IDAL.csproj|solutionrelative:idal\\iadress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55F463F7-16DC-43EF-8EF2-6ACB7158ABDC}|IDAL\\IDAL.csproj|F:\\really study\\winform\\banksystemUI\\idal\\iadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55F463F7-16DC-43EF-8EF2-6ACB7158ABDC}|IDAL\\IDAL.csproj|solutionrelative:idal\\iadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55F463F7-16DC-43EF-8EF2-6ACB7158ABDC}|IDAL\\IDAL.csproj|F:\\really study\\winform\\banksystemUI\\idal\\ibase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55F463F7-16DC-43EF-8EF2-6ACB7158ABDC}|IDAL\\IDAL.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\idal\\ibase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55F463F7-16DC-43EF-8EF2-6ACB7158ABDC}|IDAL\\IDAL.csproj|solutionrelative:idal\\ibase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55F463F7-16DC-43EF-8EF2-6ACB7158ABDC}|IDAL\\IDAL.csproj|F:\\really study\\winform\\banksystemUI\\idal\\isuperadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55F463F7-16DC-43EF-8EF2-6ACB7158ABDC}|IDAL\\IDAL.csproj|solutionrelative:idal\\isuperadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55F463F7-16DC-43EF-8EF2-6ACB7158ABDC}|IDAL\\IDAL.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\idal\\iadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F463F7-16DC-43EF-8EF2-6ACB7158ABDC}|IDAL\\IDAL.csproj|solutionrelative:idal\\iadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|F:\\really study\\winform\\banksystemUI\\banksystemui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|solutionrelative:banksystemui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\banksystemui\\form\\adminform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|solutionrelative:banksystemui\\form\\adminform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\banksystemui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{ADF9045C-8AF7-4E0D-BD33-229855F26A32}|banksystemUI\\banksystemUI.csproj|solutionrelative:banksystemui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F463F7-16DC-43EF-8EF2-6ACB7158ABDC}|IDAL\\IDAL.csproj|F:\\really study\\winform\\banksystemUI - sql sever\\idal\\isuperadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F463F7-16DC-43EF-8EF2-6ACB7158ABDC}|IDAL\\IDAL.csproj|solutionrelative:idal\\isuperadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,8 +150,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdressAddAndChange.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\ToolForm\\AdressAddAndChange.cs",
+              "RelativeDocumentMoniker": "banksystemUI\\ToolForm\\AdressAddAndChange.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\ToolForm\\AdressAddAndChange.cs [\u8BBE\u8BA1]*",
+              "RelativeToolTip": "banksystemUI\\ToolForm\\AdressAddAndChange.cs [\u8BBE\u8BA1]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T02:57:13.163Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminAddAndChange.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\ToolForm\\AdminAddAndChange.cs",
+              "RelativeDocumentMoniker": "banksystemUI\\ToolForm\\AdminAddAndChange.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\ToolForm\\AdminAddAndChange.cs [\u8BBE\u8BA1]*",
+              "RelativeToolTip": "banksystemUI\\ToolForm\\AdminAddAndChange.cs [\u8BBE\u8BA1]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T02:56:51.432Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -65,124 +189,426 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserForm.cs",
-              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI\\banksystemUI\\Form\\UserForm.cs",
-              "RelativeDocumentMoniker": "banksystemUI\\Form\\UserForm.cs",
-              "ToolTip": "F:\\really study\\winform\\banksystemUI\\banksystemUI\\Form\\UserForm.cs",
-              "RelativeToolTip": "banksystemUI\\Form\\UserForm.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAAAFUAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "UserAddAndChange.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\ToolForm\\UserAddAndChange.cs",
+              "RelativeDocumentMoniker": "banksystemUI\\ToolForm\\UserAddAndChange.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\ToolForm\\UserAddAndChange.cs*",
+              "RelativeToolTip": "banksystemUI\\ToolForm\\UserAddAndChange.cs*",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T01:30:45.014Z",
+              "WhenOpened": "2026-04-14T03:45:21.865Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BaseForm.cs",
-              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI\\banksystemUI\\Form\\BaseForm.cs",
-              "RelativeDocumentMoniker": "banksystemUI\\Form\\BaseForm.cs",
-              "ToolTip": "F:\\really study\\winform\\banksystemUI\\banksystemUI\\Form\\BaseForm.cs",
-              "RelativeToolTip": "banksystemUI\\Form\\BaseForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AdressAddAndChange.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\ToolForm\\AdressAddAndChange.cs",
+              "RelativeDocumentMoniker": "banksystemUI\\ToolForm\\AdressAddAndChange.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\ToolForm\\AdressAddAndChange.cs*",
+              "RelativeToolTip": "banksystemUI\\ToolForm\\AdressAddAndChange.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswCIAAAB1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T01:30:39.171Z"
+              "WhenOpened": "2026-04-14T03:41:03.669Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IAdmin.cs",
-              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI\\IDAL\\IAdmin.cs",
-              "RelativeDocumentMoniker": "IDAL\\IAdmin.cs",
-              "ToolTip": "F:\\really study\\winform\\banksystemUI\\IDAL\\IAdmin.cs",
-              "RelativeToolTip": "IDAL\\IAdmin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AdminAddAndChange.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\ToolForm\\AdminAddAndChange.cs",
+              "RelativeDocumentMoniker": "banksystemUI\\ToolForm\\AdminAddAndChange.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\ToolForm\\AdminAddAndChange.cs*",
+              "RelativeToolTip": "banksystemUI\\ToolForm\\AdminAddAndChange.cs*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAmwDoAAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T01:11:06.341Z"
+              "WhenOpened": "2026-04-14T03:37:12.223Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "IAdress.cs",
-              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI\\IDAL\\IAdress.cs",
-              "RelativeDocumentMoniker": "IDAL\\IAdress.cs",
-              "ToolTip": "F:\\really study\\winform\\banksystemUI\\IDAL\\IAdress.cs",
-              "RelativeToolTip": "IDAL\\IAdress.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAkAAAAAAAAAA==",
+              "Title": "UserAddAndChange.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\ToolForm\\UserAddAndChange.cs",
+              "RelativeDocumentMoniker": "banksystemUI\\ToolForm\\UserAddAndChange.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\ToolForm\\UserAddAndChange.cs [\u8BBE\u8BA1]*",
+              "RelativeToolTip": "banksystemUI\\ToolForm\\UserAddAndChange.cs [\u8BBE\u8BA1]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T01:11:01.558Z"
+              "WhenOpened": "2026-04-15T02:57:21.939Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI\\banksystemUI\\MainForm.cs",
-              "RelativeDocumentMoniker": "banksystemUI\\MainForm.cs",
-              "ToolTip": "F:\\really study\\winform\\banksystemUI\\banksystemUI\\MainForm.cs",
-              "RelativeToolTip": "banksystemUI\\MainForm.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAAGYAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "AdminAddAndChange.Designer.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\ToolForm\\AdminAddAndChange.Designer.cs",
+              "RelativeDocumentMoniker": "banksystemUI\\ToolForm\\AdminAddAndChange.Designer.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\ToolForm\\AdminAddAndChange.Designer.cs",
+              "RelativeToolTip": "banksystemUI\\ToolForm\\AdminAddAndChange.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T01:56:50.452Z"
+              "WhenOpened": "2026-04-15T02:56:43.313Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IBase.cs",
-              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI\\IDAL\\IBase.cs",
-              "RelativeDocumentMoniker": "IDAL\\IBase.cs",
-              "ToolTip": "F:\\really study\\winform\\banksystemUI\\IDAL\\IBase.cs",
-              "RelativeToolTip": "IDAL\\IBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "SuperAdminBLL.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\BLL\\SuperAdminBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\SuperAdminBLL.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\BLL\\SuperAdminBLL.cs",
+              "RelativeToolTip": "BLL\\SuperAdminBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T01:09:49.341Z"
+              "WhenOpened": "2026-04-14T03:10:17.495Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IUser.cs",
-              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI\\IDAL\\IUser.cs",
-              "RelativeDocumentMoniker": "IDAL\\IUser.cs",
-              "ToolTip": "F:\\really study\\winform\\banksystemUI\\IDAL\\IUser.cs",
-              "RelativeToolTip": "IDAL\\IUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "AdressBLL.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\BLL\\AdressBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\AdressBLL.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\BLL\\AdressBLL.cs",
+              "RelativeToolTip": "BLL\\AdressBLL.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwBwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T01:11:09.304Z"
+              "WhenOpened": "2026-04-14T03:09:50.652Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserDAL.cs",
-              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI\\DAL\\UserDAL.cs",
-              "RelativeDocumentMoniker": "DAL\\UserDAL.cs",
-              "ToolTip": "F:\\really study\\winform\\banksystemUI\\DAL\\UserDAL.cs",
-              "RelativeToolTip": "DAL\\UserDAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "AdminBLL.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\BLL\\AdminBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\AdminBLL.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\BLL\\AdminBLL.cs",
+              "RelativeToolTip": "BLL\\AdminBLL.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAmwCsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T01:13:20.117Z"
+              "WhenOpened": "2026-04-14T02:00:22.515Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ISuperAdmin.cs",
-              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI\\IDAL\\ISuperAdmin.cs",
-              "RelativeDocumentMoniker": "IDAL\\ISuperAdmin.cs",
-              "ToolTip": "F:\\really study\\winform\\banksystemUI\\IDAL\\ISuperAdmin.cs",
-              "RelativeToolTip": "IDAL\\ISuperAdmin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "AdressDAL.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\DAL\\AdressDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\AdressDAL.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\DAL\\AdressDAL.cs",
+              "RelativeToolTip": "DAL\\AdressDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T01:11:08.125Z"
+              "WhenOpened": "2026-04-13T13:15:46.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserForm.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\Form\\UserForm.cs",
+              "RelativeDocumentMoniker": "banksystemUI\\Form\\UserForm.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\Form\\UserForm.cs",
+              "RelativeToolTip": "banksystemUI\\Form\\UserForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAM0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T03:27:38.176Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "MainForm.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI\\banksystemUI\\MainForm.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\MainForm.cs",
               "RelativeDocumentMoniker": "banksystemUI\\MainForm.cs",
-              "ToolTip": "F:\\really study\\winform\\banksystemUI\\banksystemUI\\MainForm.cs [\u8BBE\u8BA1]",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\MainForm.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "banksystemUI\\MainForm.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T01:56:48.361Z"
+              "WhenOpened": "2026-04-15T01:25:03.234Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\MainForm.cs",
+              "RelativeDocumentMoniker": "banksystemUI\\MainForm.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\MainForm.cs",
+              "RelativeToolTip": "banksystemUI\\MainForm.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAswEsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T03:49:59.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminForm.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\Form\\AdminForm.cs",
+              "RelativeDocumentMoniker": "banksystemUI\\Form\\AdminForm.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\Form\\AdminForm.cs",
+              "RelativeToolTip": "banksystemUI\\Form\\AdminForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T01:58:41.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdressForm.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\Form\\AdressForm.cs",
+              "RelativeDocumentMoniker": "banksystemUI\\Form\\AdressForm.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\Form\\AdressForm.cs",
+              "RelativeToolTip": "banksystemUI\\Form\\AdressForm.cs",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAmwCUAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T03:12:06.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\Form\\UserForm.cs",
+              "RelativeDocumentMoniker": "banksystemUI\\Form\\UserForm.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\Form\\UserForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "banksystemUI\\Form\\UserForm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T11:28:46.833Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BaseForm.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\Form\\BaseForm.cs",
+              "RelativeDocumentMoniker": "banksystemUI\\Form\\BaseForm.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\Form\\BaseForm.cs",
+              "RelativeToolTip": "banksystemUI\\Form\\BaseForm.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAmwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T03:11:23.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BaseForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\Form\\BaseForm.cs",
+              "RelativeDocumentMoniker": "banksystemUI\\Form\\BaseForm.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\Form\\BaseForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "banksystemUI\\Form\\BaseForm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T03:12:56.807Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BaseForm.Designer.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\Form\\BaseForm.Designer.cs",
+              "RelativeDocumentMoniker": "banksystemUI\\Form\\BaseForm.Designer.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\Form\\BaseForm.Designer.cs",
+              "RelativeToolTip": "banksystemUI\\Form\\BaseForm.Designer.cs",
+              "ViewState": "AgIAAEABAAAAAAAAAAAQwFIBAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T08:29:10.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserDAL.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\DAL\\UserDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\UserDAL.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\DAL\\UserDAL.cs",
+              "RelativeToolTip": "DAL\\UserDAL.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwB0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T13:15:55.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AdminDAL.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\DAL\\AdminDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\AdminDAL.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\DAL\\AdminDAL.cs",
+              "RelativeToolTip": "DAL\\AdminDAL.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAH4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T13:02:32.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Adress.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\Model\\Adress.cs",
+              "RelativeDocumentMoniker": "Model\\Adress.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\Model\\Adress.cs",
+              "RelativeToolTip": "Model\\Adress.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T03:23:09.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginFrom.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\LoginFrom.cs",
+              "RelativeDocumentMoniker": "banksystemUI\\LoginFrom.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\LoginFrom.cs",
+              "RelativeToolTip": "banksystemUI\\LoginFrom.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAADUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T06:24:26.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SuperDAL.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\DAL\\SuperDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\SuperDAL.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\DAL\\SuperDAL.cs",
+              "RelativeToolTip": "DAL\\SuperDAL.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAswAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T06:33:46.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AdressForm.Designer.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\Form\\AdressForm.Designer.cs",
+              "RelativeDocumentMoniker": "banksystemUI\\Form\\AdressForm.Designer.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\Form\\AdressForm.Designer.cs",
+              "RelativeToolTip": "banksystemUI\\Form\\AdressForm.Designer.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAewIoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T06:35:57.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserForm.Designer.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\Form\\UserForm.Designer.cs",
+              "RelativeDocumentMoniker": "banksystemUI\\Form\\UserForm.Designer.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\Form\\UserForm.Designer.cs",
+              "RelativeToolTip": "banksystemUI\\Form\\UserForm.Designer.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T03:33:16.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IUser.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\IDAL\\IUser.cs",
+              "RelativeDocumentMoniker": "IDAL\\IUser.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\IDAL\\IUser.cs",
+              "RelativeToolTip": "IDAL\\IUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAoAAACFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T13:15:21.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Model\\User.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\Model\\User.cs",
+              "RelativeToolTip": "Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T03:25:43.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IAdress.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\IDAL\\IAdress.cs",
+              "RelativeDocumentMoniker": "IDAL\\IAdress.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\IDAL\\IAdress.cs",
+              "RelativeToolTip": "IDAL\\IAdress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T13:15:11.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IBase.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\IDAL\\IBase.cs",
+              "RelativeDocumentMoniker": "IDAL\\IBase.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\IDAL\\IBase.cs",
+              "RelativeToolTip": "IDAL\\IBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T13:14:49.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IAdmin.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\IDAL\\IAdmin.cs",
+              "RelativeDocumentMoniker": "IDAL\\IAdmin.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\IDAL\\IAdmin.cs",
+              "RelativeToolTip": "IDAL\\IAdmin.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T13:14:51.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AdminForm.Designer.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\Form\\AdminForm.Designer.cs",
+              "RelativeDocumentMoniker": "banksystemUI\\Form\\AdminForm.Designer.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\Form\\AdminForm.Designer.cs",
+              "RelativeToolTip": "banksystemUI\\Form\\AdminForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T03:13:06.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "App.config",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\App.config",
+              "RelativeDocumentMoniker": "banksystemUI\\App.config",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\banksystemUI\\App.config",
+              "RelativeToolTip": "banksystemUI\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-04-14T01:52:29.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ISuperAdmin.cs",
+              "DocumentMoniker": "F:\\really study\\winform\\banksystemUI - sql sever\\IDAL\\ISuperAdmin.cs",
+              "RelativeDocumentMoniker": "IDAL\\ISuperAdmin.cs",
+              "ToolTip": "F:\\really study\\winform\\banksystemUI - sql sever\\IDAL\\ISuperAdmin.cs",
+              "RelativeToolTip": "IDAL\\ISuperAdmin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T13:15:17.861Z"
             }
           ]
         }
